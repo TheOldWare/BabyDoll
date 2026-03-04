@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     background-color: #232070;
     color: #000000;
     display: flex;
@@ -14,7 +14,7 @@ body {
     align-items: center;
 }
 
-.banner {
+.conteiner {
      width: 100%;
     max-width: 1200px;
     margin: 0 auto;
@@ -49,6 +49,9 @@ body {
 .heart-star {
     width: 100%;
     max-width: 400px;
-    
-
+    transition: transform 0.5s ease;
+}
+.heart-star:hover {
+    transform: scale(1.1);
+    transition: transform 0.4s ease;
 }
